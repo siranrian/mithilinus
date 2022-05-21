@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php 
+    require_once("site.php");
+    use Mithilinus;
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +11,12 @@
     <title>Mithilinus | Erik Moffett</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <?php
+                getNav();
+            ?>
+        </nav>
+    </header>
 </body>
 </html>
