@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<?php 
+<?php
+
+use MithApp;
     require_once("site.php");
-    use Mithilinus;
+    require_once("./src/mith-app.php");
+    $app = new MithApp();
+
 ?>
 <html lang="en">
 <head>
@@ -14,7 +18,8 @@
     <header>
         <nav>
             <?php
-                getNav();
+                
+                $app::getNav();
             ?>
         </nav>
     </header>
