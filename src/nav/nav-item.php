@@ -1,5 +1,5 @@
 <?php
-namespace Mithilinus;
+namespace MithApp\Nav;
 
 class NavItem {
     public string $id;

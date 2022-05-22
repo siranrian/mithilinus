@@ -1,5 +1,5 @@
 <?php
-namespace Mithilinus;
+namespace MithApp\Nav;
 
 abstract class NavObj {
     var $items = Array(); 

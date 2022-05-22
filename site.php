@@ -1,9 +1,9 @@
 <?php
-    use Mithilinus;
-    use Mithilinus\HorizontalNav;
-    use Mithilinus\NavItem;
+    namespace MithApp;
+    use MithApp\Nav\HorizontalNav;
+    use MithApp\Nav\NavItem;
 
-    require_once("./src/mith.php");
+    require_once("./src/mith-app.php");
 
     $navItems = array(
         new NavItem("main_about","About Me",""),

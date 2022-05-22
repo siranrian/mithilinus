@@ -1,5 +1,6 @@
 <?php
-namespace Mithilinus;
+namespace MithApp;
+use MithApp\Nav\NavObj;
 
 
 class MithApp {
@@ -22,7 +23,7 @@ class MithApp {
         
     }
 
-    public function getNav(NavObj $nav ): string {
+    private static function getNav(NavObj $nav ): string {
         return "";
     }
 
