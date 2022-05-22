@@ -1,0 +1,14 @@
+body {
+    max-width: 95%;
+    margin: auto;
+}
+
+nav {
+    background: #eeddee;
+    padding: 15px 0;
+    width: 100%;
+}
+
+nav .active {
+    color: #003377;
+}
